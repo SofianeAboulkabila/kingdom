@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+        <div id="box">
+            <div>
+                <img id="logo" src="./Kingdom_Hearts_Logo_Transparent.png"
+                    alt="">
+            </div>
+            <div>
+                <img id="sora" src="SORA_TO_DO_LIST_COMMENCE.png" alt="">
+            </div>
+            <div id="song">
+                <img src="Currently_playing_song.webp" alt="" onclick="playSound()" >
+                <p id="song-name"></p>
+            </div>
+            <div id="developpement">
+                <p>Developped by</p>
+                <hr id="separator">
+                <p>QAO</p>
+            </div>
+            <div id="carrer">
+
+                <div class="container">
+                    <div class="carrer"></div>
+                    <p class="text">NEW JOURNEY</p>
+                </div>
+
+                <div class="container">
+                    <div class="carrer"></div>
+                    <p class="text">LOAD</p>
+                </div>
+
+                <div class="container">
+                    <div class="carrer"></div>
+                    <p class="text">GO BACK</p>
+                </div>
+            </div>
+        </div>
+
+
+        <audio id="son-accueil">
+            <source id="song-1" src="Dearly_Beloved.mp3" data-name="Dearly Beloved" type="audio/mpeg">
+        </audio>
+        <audio id="son-naviguer">
+            <source id="song-2" src="Naviguer.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="son-click">
+            <source id="song-3" src="Select.mp3" type="audio/mpeg">
+        </audio>
+
+        <script src="main.js"></script>
+    </body>
+
+</html>

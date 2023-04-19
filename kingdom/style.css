@@ -1,0 +1,90 @@
+@font-face {
+    font-family: KHMenu;
+    src: url("KHMenu.otf") format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: KHMenu;
+}
+
+#box {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+}
+ 
+#sora {
+    height: 95vh;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+#logo {
+    height: 30vw;
+    z-index: 1;
+    position: absolute;
+}
+
+#song {
+    position: absolute;
+    right: 0;
+    margin-right: 2%;
+}
+
+#carrer {
+    height: 40%;
+    width: 50%;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.carrer {
+    height: 50px;
+    width: 50px;
+    background: #808080;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+}
+
+#separator {
+    border-top: 3px solid #acacac;
+}
+#developpement {
+    position: absolute;
+    top: 50%;
+    font-size: 1.85rem;
+    color: #bbb;
+}
+
+.text {
+    color: #bbb;
+    font-size: 3em;
+    letter-spacing: 0.15em;
+    white-space: nowrap;
+}
+@media (max-width: 768px) {
+    .text {
+      font-size: 2em;
+    }
+  }
+
+  #song-name {
+    margin-left: 15%;
+    color: #ffb340;
+    margin-top: -15.9%;
+    font-size: 1.05rem;
+  }
